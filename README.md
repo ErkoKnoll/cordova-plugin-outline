@@ -1,3 +1,5 @@
+Standalone Outline cordova plugin forked from: https://github.com/Jigsaw-Code/outline-client
+
 # cordova-plugin-outline
 
 This Cordova plugin provides the ability to start a system-wide VPN, connected to a local Shadowsocks client.
