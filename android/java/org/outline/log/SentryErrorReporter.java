@@ -21,6 +21,7 @@ import io.sentry.event.BreadcrumbBuilder;
 import io.sentry.event.Event;
 import io.sentry.event.EventBuilder;
 import io.sentry.Sentry;
+import io.sentry.android.AndroidSentryClientFactory;
 import java.lang.IllegalStateException;
 import java.util.LinkedList;
 import java.util.Locale;
@@ -69,7 +70,7 @@ class SentryErrorReporter {
     if (isInitialized) {
       throw new IllegalStateException("Error reporting framework already initiated");
     }
-    Sentry.init(dsn, new DataSensitiveAndroidSentryClientFactory(context));
+    Sentry.init(dsn, new AndroidSentryClientFactory(context));
     isInitialized = true;
 
     // Record all queued breadcrumbs.

@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-outline",
+  "version": "1.0.0",
+  "description": "Native plugin for the Outline app",
+  "cordova": {
+    "id": "cordova-plugin-outline",
+    "platforms": [
+      "android",
+      "ios",
+      "osx"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErkoKnoll/cordova-plugin-outline.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0-dev"
+    }
+  ],
+  "author": "Jigsaw",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/ErkoKnoll/cordova-plugin-outline/issues"
+  },
+  "homepage": "https://github.com/ErkoKnoll/cordova-plugin-outline#readme"
+}
